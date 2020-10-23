@@ -27153,44 +27153,42 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <symbols>
 <symbol name="RASPBERRYPI_40_PIN_GPIO">
 <wire x1="-12.7" y1="27.94" x2="12.7" y2="27.94" width="0.254" layer="94"/>
-<wire x1="12.7" y1="27.94" x2="12.7" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-33.02" x2="-12.7" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-33.02" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-30.48" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
 <pin name="3.3V" x="-15.24" y="22.86" length="short" direction="pwr"/>
-<pin name="SDA" x="15.24" y="25.4" length="short" rot="R180"/>
-<pin name="SCL" x="15.24" y="22.86" length="short" rot="R180"/>
-<pin name="GP4" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="GP17" x="15.24" y="-7.62" length="short" rot="R180"/>
-<pin name="GP27" x="15.24" y="-22.86" length="short" rot="R180"/>
-<pin name="GP22" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="MOSI" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
-<pin name="MISO" x="15.24" y="7.62" length="short" direction="in" rot="R180"/>
-<pin name="SCLK" x="15.24" y="10.16" length="short" direction="out" rot="R180"/>
-<pin name="CE1" x="15.24" y="0" length="short" direction="out" rot="R180"/>
-<pin name="CE0" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
-<pin name="GP25" x="15.24" y="-20.32" length="short" rot="R180"/>
-<pin name="GP24" x="15.24" y="-17.78" length="short" rot="R180"/>
-<pin name="GP23" x="15.24" y="-15.24" length="short" rot="R180"/>
-<pin name="GP18#" x="15.24" y="-10.16" length="short" rot="R180"/>
-<pin name="RXI" x="15.24" y="15.24" length="short" direction="in" rot="R180"/>
-<pin name="TXO" x="15.24" y="17.78" length="short" direction="out" rot="R180"/>
-<pin name="GND" x="-15.24" y="-30.48" length="short" direction="pwr"/>
+<pin name="SDA/GP2" x="15.24" y="20.32" length="short" rot="R180"/>
+<pin name="SCL/GP3\" x="15.24" y="17.78" length="short" rot="R180"/>
+<pin name="GP4" x="-15.24" y="15.24" length="short"/>
+<pin name="GP17" x="-15.24" y="5.08" length="short"/>
+<pin name="GP27" x="-15.24" y="-10.16" length="short"/>
+<pin name="GP22" x="-15.24" y="2.54" length="short"/>
+<pin name="COPI/GP10" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="CIPO/GP9" x="15.24" y="7.62" length="short" direction="in" rot="R180"/>
+<pin name="SCLK/GP11" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="CE1/GP7" x="15.24" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="CE0/GP8" x="15.24" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="GP25" x="-15.24" y="-5.08" length="short"/>
+<pin name="GP24" x="-15.24" y="-2.54" length="short"/>
+<pin name="GP23" x="-15.24" y="0" length="short"/>
+<pin name="PCM_CLK/GP18" x="15.24" y="-17.78" length="short" rot="R180"/>
+<pin name="RXI/GP15" x="15.24" y="-12.7" length="short" direction="in" rot="R180"/>
+<pin name="TXO/GP14" x="15.24" y="-10.16" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="-15.24" y="-27.94" length="short" direction="pwr"/>
 <pin name="5V" x="-15.24" y="25.4" length="short" direction="pwr"/>
 <text x="-12.7" y="28.702" size="1.778" layer="95">&gt;Name</text>
-<text x="-12.7" y="-35.56" size="1.778" layer="96">&gt;Value</text>
-<pin name="ID_SD" x="15.24" y="-27.94" length="short" rot="R180"/>
-<pin name="ID_SC" x="15.24" y="-30.48" length="short" rot="R180"/>
+<text x="-12.7" y="-33.02" size="1.778" layer="96">&gt;Value</text>
+<pin name="ID_SD/GP0" x="15.24" y="25.4" length="short" rot="R180"/>
+<pin name="ID_SC/GP1" x="15.24" y="22.86" length="short" rot="R180"/>
 <pin name="GP5" x="-15.24" y="12.7" length="short"/>
 <pin name="GP6" x="-15.24" y="10.16" length="short"/>
-<pin name="GP12" x="-15.24" y="7.62" length="short"/>
-<pin name="GP13" x="-15.24" y="5.08" length="short"/>
-<pin name="GP19" x="-15.24" y="0" length="short"/>
-<pin name="GP16" x="-15.24" y="2.54" length="short"/>
+<pin name="PWM0/GP12" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="PWM1/GP13" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="PCM_FS/GP19" x="15.24" y="-20.32" length="short" rot="R180"/>
+<pin name="GP16" x="-15.24" y="7.62" length="short"/>
 <pin name="GP26" x="-15.24" y="-7.62" length="short"/>
-<pin name="GP20" x="-15.24" y="-2.54" length="short"/>
-<pin name="GP21" x="-15.24" y="-5.08" length="short"/>
-<wire x1="-3.81" y1="12.7" x2="-3.81" y2="-7.62" width="0.254" layer="95"/>
-<wire x1="3.556" y1="-27.94" x2="3.556" y2="-30.48" width="0.254" layer="95"/>
+<pin name="PCM_DIN/GP20" x="15.24" y="-22.86" length="short" rot="R180"/>
+<pin name="PCM_DOUT/GP21" x="15.24" y="-25.4" length="short" rot="R180"/>
 </symbol>
 <symbol name="I2C_STANDARD">
 <description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Pinout Header&lt;/h3&gt;
@@ -27231,17 +27229,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="3.3V" pad="1 17"/>
 <connect gate="G$1" pin="5V" pad="2 4"/>
-<connect gate="G$1" pin="CE0" pad="24"/>
-<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="CE0/GP8" pad="24"/>
+<connect gate="G$1" pin="CE1/GP7" pad="26"/>
+<connect gate="G$1" pin="CIPO/GP9" pad="21"/>
+<connect gate="G$1" pin="COPI/GP10" pad="19"/>
 <connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39"/>
-<connect gate="G$1" pin="GP12" pad="32"/>
-<connect gate="G$1" pin="GP13" pad="33"/>
 <connect gate="G$1" pin="GP16" pad="36"/>
 <connect gate="G$1" pin="GP17" pad="11"/>
-<connect gate="G$1" pin="GP18#" pad="12"/>
-<connect gate="G$1" pin="GP19" pad="35"/>
-<connect gate="G$1" pin="GP20" pad="38"/>
-<connect gate="G$1" pin="GP21" pad="40"/>
 <connect gate="G$1" pin="GP22" pad="15"/>
 <connect gate="G$1" pin="GP23" pad="16"/>
 <connect gate="G$1" pin="GP24" pad="18"/>
@@ -27251,15 +27245,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GP4" pad="7"/>
 <connect gate="G$1" pin="GP5" pad="29"/>
 <connect gate="G$1" pin="GP6" pad="31"/>
-<connect gate="G$1" pin="ID_SC" pad="28"/>
-<connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="MISO" pad="21"/>
-<connect gate="G$1" pin="MOSI" pad="19"/>
-<connect gate="G$1" pin="RXI" pad="10"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SCLK" pad="23"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="TXO" pad="8"/>
+<connect gate="G$1" pin="ID_SC/GP1" pad="28"/>
+<connect gate="G$1" pin="ID_SD/GP0" pad="27"/>
+<connect gate="G$1" pin="PCM_CLK/GP18" pad="12"/>
+<connect gate="G$1" pin="PCM_DIN/GP20" pad="38"/>
+<connect gate="G$1" pin="PCM_DOUT/GP21" pad="40"/>
+<connect gate="G$1" pin="PCM_FS/GP19" pad="35"/>
+<connect gate="G$1" pin="PWM0/GP12" pad="32"/>
+<connect gate="G$1" pin="PWM1/GP13" pad="33"/>
+<connect gate="G$1" pin="RXI/GP15" pad="10"/>
+<connect gate="G$1" pin="SCL/GP3\" pad="5"/>
+<connect gate="G$1" pin="SCLK/GP11" pad="23"/>
+<connect gate="G$1" pin="SDA/GP2" pad="3"/>
+<connect gate="G$1" pin="TXO/GP14" pad="8"/>
 </connects>
 <technologies>
 <technology name="">
@@ -27272,17 +27270,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="3.3V" pad="1 17"/>
 <connect gate="G$1" pin="5V" pad="2 4"/>
-<connect gate="G$1" pin="CE0" pad="24"/>
-<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="CE0/GP8" pad="24"/>
+<connect gate="G$1" pin="CE1/GP7" pad="26"/>
+<connect gate="G$1" pin="CIPO/GP9" pad="21"/>
+<connect gate="G$1" pin="COPI/GP10" pad="19"/>
 <connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39"/>
-<connect gate="G$1" pin="GP12" pad="32"/>
-<connect gate="G$1" pin="GP13" pad="33"/>
 <connect gate="G$1" pin="GP16" pad="36"/>
 <connect gate="G$1" pin="GP17" pad="11"/>
-<connect gate="G$1" pin="GP18#" pad="12"/>
-<connect gate="G$1" pin="GP19" pad="35"/>
-<connect gate="G$1" pin="GP20" pad="38"/>
-<connect gate="G$1" pin="GP21" pad="40"/>
 <connect gate="G$1" pin="GP22" pad="15"/>
 <connect gate="G$1" pin="GP23" pad="16"/>
 <connect gate="G$1" pin="GP24" pad="18"/>
@@ -27292,15 +27286,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GP4" pad="7"/>
 <connect gate="G$1" pin="GP5" pad="29"/>
 <connect gate="G$1" pin="GP6" pad="31"/>
-<connect gate="G$1" pin="ID_SC" pad="28"/>
-<connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="MISO" pad="21"/>
-<connect gate="G$1" pin="MOSI" pad="19"/>
-<connect gate="G$1" pin="RXI" pad="10"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SCLK" pad="23"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="TXO" pad="8"/>
+<connect gate="G$1" pin="ID_SC/GP1" pad="28"/>
+<connect gate="G$1" pin="ID_SD/GP0" pad="27"/>
+<connect gate="G$1" pin="PCM_CLK/GP18" pad="12"/>
+<connect gate="G$1" pin="PCM_DIN/GP20" pad="38"/>
+<connect gate="G$1" pin="PCM_DOUT/GP21" pad="40"/>
+<connect gate="G$1" pin="PCM_FS/GP19" pad="35"/>
+<connect gate="G$1" pin="PWM0/GP12" pad="32"/>
+<connect gate="G$1" pin="PWM1/GP13" pad="33"/>
+<connect gate="G$1" pin="RXI/GP15" pad="10"/>
+<connect gate="G$1" pin="SCL/GP3\" pad="5"/>
+<connect gate="G$1" pin="SCLK/GP11" pad="23"/>
+<connect gate="G$1" pin="SDA/GP2" pad="3"/>
+<connect gate="G$1" pin="TXO/GP14" pad="8"/>
 </connects>
 <technologies>
 <technology name="">
@@ -27312,17 +27310,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="3.3V" pad="1 17"/>
 <connect gate="G$1" pin="5V" pad="2 4"/>
-<connect gate="G$1" pin="CE0" pad="24"/>
-<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="CE0/GP8" pad="24"/>
+<connect gate="G$1" pin="CE1/GP7" pad="26"/>
+<connect gate="G$1" pin="CIPO/GP9" pad="21"/>
+<connect gate="G$1" pin="COPI/GP10" pad="19"/>
 <connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39"/>
-<connect gate="G$1" pin="GP12" pad="32"/>
-<connect gate="G$1" pin="GP13" pad="33"/>
 <connect gate="G$1" pin="GP16" pad="36"/>
 <connect gate="G$1" pin="GP17" pad="11"/>
-<connect gate="G$1" pin="GP18#" pad="12"/>
-<connect gate="G$1" pin="GP19" pad="35"/>
-<connect gate="G$1" pin="GP20" pad="38"/>
-<connect gate="G$1" pin="GP21" pad="40"/>
 <connect gate="G$1" pin="GP22" pad="15"/>
 <connect gate="G$1" pin="GP23" pad="16"/>
 <connect gate="G$1" pin="GP24" pad="18"/>
@@ -27332,15 +27326,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GP4" pad="7"/>
 <connect gate="G$1" pin="GP5" pad="29"/>
 <connect gate="G$1" pin="GP6" pad="31"/>
-<connect gate="G$1" pin="ID_SC" pad="28"/>
-<connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="MISO" pad="21"/>
-<connect gate="G$1" pin="MOSI" pad="19"/>
-<connect gate="G$1" pin="RXI" pad="10"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SCLK" pad="23"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="TXO" pad="8"/>
+<connect gate="G$1" pin="ID_SC/GP1" pad="28"/>
+<connect gate="G$1" pin="ID_SD/GP0" pad="27"/>
+<connect gate="G$1" pin="PCM_CLK/GP18" pad="12"/>
+<connect gate="G$1" pin="PCM_DIN/GP20" pad="38"/>
+<connect gate="G$1" pin="PCM_DOUT/GP21" pad="40"/>
+<connect gate="G$1" pin="PCM_FS/GP19" pad="35"/>
+<connect gate="G$1" pin="PWM0/GP12" pad="32"/>
+<connect gate="G$1" pin="PWM1/GP13" pad="33"/>
+<connect gate="G$1" pin="RXI/GP15" pad="10"/>
+<connect gate="G$1" pin="SCL/GP3\" pad="5"/>
+<connect gate="G$1" pin="SCLK/GP11" pad="23"/>
+<connect gate="G$1" pin="SDA/GP2" pad="3"/>
+<connect gate="G$1" pin="TXO/GP14" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -27350,17 +27348,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="3.3V" pad="1 17"/>
 <connect gate="G$1" pin="5V" pad="2 4"/>
-<connect gate="G$1" pin="CE0" pad="24"/>
-<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="CE0/GP8" pad="24"/>
+<connect gate="G$1" pin="CE1/GP7" pad="26"/>
+<connect gate="G$1" pin="CIPO/GP9" pad="21"/>
+<connect gate="G$1" pin="COPI/GP10" pad="19"/>
 <connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39"/>
-<connect gate="G$1" pin="GP12" pad="32"/>
-<connect gate="G$1" pin="GP13" pad="33"/>
 <connect gate="G$1" pin="GP16" pad="36"/>
 <connect gate="G$1" pin="GP17" pad="11"/>
-<connect gate="G$1" pin="GP18#" pad="12"/>
-<connect gate="G$1" pin="GP19" pad="35"/>
-<connect gate="G$1" pin="GP20" pad="38"/>
-<connect gate="G$1" pin="GP21" pad="40"/>
 <connect gate="G$1" pin="GP22" pad="15"/>
 <connect gate="G$1" pin="GP23" pad="16"/>
 <connect gate="G$1" pin="GP24" pad="18"/>
@@ -27370,15 +27364,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GP4" pad="7"/>
 <connect gate="G$1" pin="GP5" pad="29"/>
 <connect gate="G$1" pin="GP6" pad="31"/>
-<connect gate="G$1" pin="ID_SC" pad="28"/>
-<connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="MISO" pad="21"/>
-<connect gate="G$1" pin="MOSI" pad="19"/>
-<connect gate="G$1" pin="RXI" pad="10"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SCLK" pad="23"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="TXO" pad="8"/>
+<connect gate="G$1" pin="ID_SC/GP1" pad="28"/>
+<connect gate="G$1" pin="ID_SD/GP0" pad="27"/>
+<connect gate="G$1" pin="PCM_CLK/GP18" pad="12"/>
+<connect gate="G$1" pin="PCM_DIN/GP20" pad="38"/>
+<connect gate="G$1" pin="PCM_DOUT/GP21" pad="40"/>
+<connect gate="G$1" pin="PCM_FS/GP19" pad="35"/>
+<connect gate="G$1" pin="PWM0/GP12" pad="32"/>
+<connect gate="G$1" pin="PWM1/GP13" pad="33"/>
+<connect gate="G$1" pin="RXI/GP15" pad="10"/>
+<connect gate="G$1" pin="SCL/GP3\" pad="5"/>
+<connect gate="G$1" pin="SCLK/GP11" pad="23"/>
+<connect gate="G$1" pin="SDA/GP2" pad="3"/>
+<connect gate="G$1" pin="TXO/GP14" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -27388,17 +27386,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="3.3V" pad="1 1B 17 17B"/>
 <connect gate="G$1" pin="5V" pad="2 2B 4 4B"/>
-<connect gate="G$1" pin="CE0" pad="24 24B"/>
-<connect gate="G$1" pin="CE1" pad="26 26B"/>
+<connect gate="G$1" pin="CE0/GP8" pad="24 24B"/>
+<connect gate="G$1" pin="CE1/GP7" pad="26 26B"/>
+<connect gate="G$1" pin="CIPO/GP9" pad="21 21B"/>
+<connect gate="G$1" pin="COPI/GP10" pad="19 19B"/>
 <connect gate="G$1" pin="GND" pad="6 6B 9 9B 14 14B 20 20B 25 25B 30 30B 34 34B 39 39B"/>
-<connect gate="G$1" pin="GP12" pad="32 32B"/>
-<connect gate="G$1" pin="GP13" pad="33 33B"/>
 <connect gate="G$1" pin="GP16" pad="36 36B"/>
 <connect gate="G$1" pin="GP17" pad="11 11B"/>
-<connect gate="G$1" pin="GP18#" pad="12 12B"/>
-<connect gate="G$1" pin="GP19" pad="35 35B"/>
-<connect gate="G$1" pin="GP20" pad="38 38B"/>
-<connect gate="G$1" pin="GP21" pad="40 40B"/>
 <connect gate="G$1" pin="GP22" pad="15 15B"/>
 <connect gate="G$1" pin="GP23" pad="16 16B"/>
 <connect gate="G$1" pin="GP24" pad="18 18B"/>
@@ -27408,15 +27402,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GP4" pad="7 7B"/>
 <connect gate="G$1" pin="GP5" pad="29 29B"/>
 <connect gate="G$1" pin="GP6" pad="31 31B"/>
-<connect gate="G$1" pin="ID_SC" pad="28 28B"/>
-<connect gate="G$1" pin="ID_SD" pad="27 27B"/>
-<connect gate="G$1" pin="MISO" pad="21 21B"/>
-<connect gate="G$1" pin="MOSI" pad="19 19B"/>
-<connect gate="G$1" pin="RXI" pad="10 10B"/>
-<connect gate="G$1" pin="SCL" pad="5 5B"/>
-<connect gate="G$1" pin="SCLK" pad="23 23B"/>
-<connect gate="G$1" pin="SDA" pad="3 3B"/>
-<connect gate="G$1" pin="TXO" pad="8 8B"/>
+<connect gate="G$1" pin="ID_SC/GP1" pad="28 28B"/>
+<connect gate="G$1" pin="ID_SD/GP0" pad="27 27B"/>
+<connect gate="G$1" pin="PCM_CLK/GP18" pad="12 12B"/>
+<connect gate="G$1" pin="PCM_DIN/GP20" pad="38 38B"/>
+<connect gate="G$1" pin="PCM_DOUT/GP21" pad="40 40B"/>
+<connect gate="G$1" pin="PCM_FS/GP19" pad="35 35B"/>
+<connect gate="G$1" pin="PWM0/GP12" pad="32 32B"/>
+<connect gate="G$1" pin="PWM1/GP13" pad="33 33B"/>
+<connect gate="G$1" pin="RXI/GP15" pad="10 10B"/>
+<connect gate="G$1" pin="SCL/GP3\" pad="5 5B"/>
+<connect gate="G$1" pin="SCLK/GP11" pad="23 23B"/>
+<connect gate="G$1" pin="SDA/GP2" pad="3 3B"/>
+<connect gate="G$1" pin="TXO/GP14" pad="8 8B"/>
 </connects>
 <technologies>
 <technology name="">
@@ -27429,17 +27427,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="3.3V" pad="1 1B 17 17B"/>
 <connect gate="G$1" pin="5V" pad="2 2B 4 4B"/>
-<connect gate="G$1" pin="CE0" pad="24 24B"/>
-<connect gate="G$1" pin="CE1" pad="26 26B"/>
+<connect gate="G$1" pin="CE0/GP8" pad="24 24B"/>
+<connect gate="G$1" pin="CE1/GP7" pad="26 26B"/>
+<connect gate="G$1" pin="CIPO/GP9" pad="21 21B"/>
+<connect gate="G$1" pin="COPI/GP10" pad="19 19B"/>
 <connect gate="G$1" pin="GND" pad="6 6B 9 9B 14 14B 20 20B 25 25B 30 30B 34 34B 39 39B"/>
-<connect gate="G$1" pin="GP12" pad="32 32B"/>
-<connect gate="G$1" pin="GP13" pad="33 33B"/>
 <connect gate="G$1" pin="GP16" pad="36 36B"/>
 <connect gate="G$1" pin="GP17" pad="11 11B"/>
-<connect gate="G$1" pin="GP18#" pad="12 12B"/>
-<connect gate="G$1" pin="GP19" pad="35 35B"/>
-<connect gate="G$1" pin="GP20" pad="38 38B"/>
-<connect gate="G$1" pin="GP21" pad="40 40B"/>
 <connect gate="G$1" pin="GP22" pad="15 15B"/>
 <connect gate="G$1" pin="GP23" pad="16 16B"/>
 <connect gate="G$1" pin="GP24" pad="18 18B"/>
@@ -27449,15 +27443,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GP4" pad="7 7B"/>
 <connect gate="G$1" pin="GP5" pad="29 29B"/>
 <connect gate="G$1" pin="GP6" pad="31 31B"/>
-<connect gate="G$1" pin="ID_SC" pad="28 28B"/>
-<connect gate="G$1" pin="ID_SD" pad="27 27B"/>
-<connect gate="G$1" pin="MISO" pad="21 21B"/>
-<connect gate="G$1" pin="MOSI" pad="19 19B"/>
-<connect gate="G$1" pin="RXI" pad="10 10B"/>
-<connect gate="G$1" pin="SCL" pad="5 5B"/>
-<connect gate="G$1" pin="SCLK" pad="23 23B"/>
-<connect gate="G$1" pin="SDA" pad="3 3B"/>
-<connect gate="G$1" pin="TXO" pad="8 8B"/>
+<connect gate="G$1" pin="ID_SC/GP1" pad="28 28B"/>
+<connect gate="G$1" pin="ID_SD/GP0" pad="27 27B"/>
+<connect gate="G$1" pin="PCM_CLK/GP18" pad="12 12B"/>
+<connect gate="G$1" pin="PCM_DIN/GP20" pad="38 38B"/>
+<connect gate="G$1" pin="PCM_DOUT/GP21" pad="40 40B"/>
+<connect gate="G$1" pin="PCM_FS/GP19" pad="35 35B"/>
+<connect gate="G$1" pin="PWM0/GP12" pad="32 32B"/>
+<connect gate="G$1" pin="PWM1/GP13" pad="33 33B"/>
+<connect gate="G$1" pin="RXI/GP15" pad="10 10B"/>
+<connect gate="G$1" pin="SCL/GP3\" pad="5 5B"/>
+<connect gate="G$1" pin="SCLK/GP11" pad="23 23B"/>
+<connect gate="G$1" pin="SDA/GP2" pad="3 3B"/>
+<connect gate="G$1" pin="TXO/GP14" pad="8 8B"/>
 </connects>
 <technologies>
 <technology name="">
@@ -27470,17 +27468,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="3.3V" pad="1 1B 17 17B"/>
 <connect gate="G$1" pin="5V" pad="2 2B 4 4B"/>
-<connect gate="G$1" pin="CE0" pad="24 24B"/>
-<connect gate="G$1" pin="CE1" pad="26 26B"/>
+<connect gate="G$1" pin="CE0/GP8" pad="24 24B"/>
+<connect gate="G$1" pin="CE1/GP7" pad="26 26B"/>
+<connect gate="G$1" pin="CIPO/GP9" pad="21 21B"/>
+<connect gate="G$1" pin="COPI/GP10" pad="19 19B"/>
 <connect gate="G$1" pin="GND" pad="6 6B 9 9B 14 14B 20 20B 25 25B 30 30B 34 34B 39 39B"/>
-<connect gate="G$1" pin="GP12" pad="32 32B"/>
-<connect gate="G$1" pin="GP13" pad="33 33B"/>
 <connect gate="G$1" pin="GP16" pad="36 36B"/>
 <connect gate="G$1" pin="GP17" pad="11 11B"/>
-<connect gate="G$1" pin="GP18#" pad="12 12B"/>
-<connect gate="G$1" pin="GP19" pad="35 35B"/>
-<connect gate="G$1" pin="GP20" pad="38 38B"/>
-<connect gate="G$1" pin="GP21" pad="40 40B"/>
 <connect gate="G$1" pin="GP22" pad="15 15B"/>
 <connect gate="G$1" pin="GP23" pad="16 16B"/>
 <connect gate="G$1" pin="GP24" pad="18 18B"/>
@@ -27490,15 +27484,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GP4" pad="7 7B"/>
 <connect gate="G$1" pin="GP5" pad="29 29B"/>
 <connect gate="G$1" pin="GP6" pad="31 31B"/>
-<connect gate="G$1" pin="ID_SC" pad="28 28B"/>
-<connect gate="G$1" pin="ID_SD" pad="27 27B"/>
-<connect gate="G$1" pin="MISO" pad="21 21B"/>
-<connect gate="G$1" pin="MOSI" pad="19 19B"/>
-<connect gate="G$1" pin="RXI" pad="10 10B"/>
-<connect gate="G$1" pin="SCL" pad="5 5B"/>
-<connect gate="G$1" pin="SCLK" pad="23 23B"/>
-<connect gate="G$1" pin="SDA" pad="3 3B"/>
-<connect gate="G$1" pin="TXO" pad="8 8B"/>
+<connect gate="G$1" pin="ID_SC/GP1" pad="28 28B"/>
+<connect gate="G$1" pin="ID_SD/GP0" pad="27 27B"/>
+<connect gate="G$1" pin="PCM_CLK/GP18" pad="12 12B"/>
+<connect gate="G$1" pin="PCM_DIN/GP20" pad="38 38B"/>
+<connect gate="G$1" pin="PCM_DOUT/GP21" pad="40 40B"/>
+<connect gate="G$1" pin="PCM_FS/GP19" pad="35 35B"/>
+<connect gate="G$1" pin="PWM0/GP12" pad="32 32B"/>
+<connect gate="G$1" pin="PWM1/GP13" pad="33 33B"/>
+<connect gate="G$1" pin="RXI/GP15" pad="10 10B"/>
+<connect gate="G$1" pin="SCL/GP3\" pad="5 5B"/>
+<connect gate="G$1" pin="SCLK/GP11" pad="23 23B"/>
+<connect gate="G$1" pin="SDA/GP2" pad="3 3B"/>
+<connect gate="G$1" pin="TXO/GP14" pad="8 8B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -27508,17 +27506,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="3.3V" pad="1 17"/>
 <connect gate="G$1" pin="5V" pad="2 4"/>
-<connect gate="G$1" pin="CE0" pad="24"/>
-<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="CE0/GP8" pad="24"/>
+<connect gate="G$1" pin="CE1/GP7" pad="26"/>
+<connect gate="G$1" pin="CIPO/GP9" pad="21"/>
+<connect gate="G$1" pin="COPI/GP10" pad="19" route="any"/>
 <connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39"/>
-<connect gate="G$1" pin="GP12" pad="32"/>
-<connect gate="G$1" pin="GP13" pad="33"/>
 <connect gate="G$1" pin="GP16" pad="36"/>
 <connect gate="G$1" pin="GP17" pad="11"/>
-<connect gate="G$1" pin="GP18#" pad="12"/>
-<connect gate="G$1" pin="GP19" pad="35"/>
-<connect gate="G$1" pin="GP20" pad="38"/>
-<connect gate="G$1" pin="GP21" pad="40"/>
 <connect gate="G$1" pin="GP22" pad="15"/>
 <connect gate="G$1" pin="GP23" pad="16"/>
 <connect gate="G$1" pin="GP24" pad="18"/>
@@ -27528,15 +27522,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GP4" pad="7"/>
 <connect gate="G$1" pin="GP5" pad="29"/>
 <connect gate="G$1" pin="GP6" pad="31"/>
-<connect gate="G$1" pin="ID_SC" pad="28"/>
-<connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="MISO" pad="21"/>
-<connect gate="G$1" pin="MOSI" pad="19" route="any"/>
-<connect gate="G$1" pin="RXI" pad="10"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SCLK" pad="23"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="TXO" pad="8"/>
+<connect gate="G$1" pin="ID_SC/GP1" pad="28"/>
+<connect gate="G$1" pin="ID_SD/GP0" pad="27"/>
+<connect gate="G$1" pin="PCM_CLK/GP18" pad="12"/>
+<connect gate="G$1" pin="PCM_DIN/GP20" pad="38"/>
+<connect gate="G$1" pin="PCM_DOUT/GP21" pad="40"/>
+<connect gate="G$1" pin="PCM_FS/GP19" pad="35"/>
+<connect gate="G$1" pin="PWM0/GP12" pad="32"/>
+<connect gate="G$1" pin="PWM1/GP13" pad="33"/>
+<connect gate="G$1" pin="RXI/GP15" pad="10"/>
+<connect gate="G$1" pin="SCL/GP3\" pad="5"/>
+<connect gate="G$1" pin="SCLK/GP11" pad="23"/>
+<connect gate="G$1" pin="SDA/GP2" pad="3"/>
+<connect gate="G$1" pin="TXO/GP14" pad="8"/>
 </connects>
 <technologies>
 <technology name="">
@@ -27548,17 +27546,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="3.3V" pad="1 17"/>
 <connect gate="G$1" pin="5V" pad="2 4"/>
-<connect gate="G$1" pin="CE0" pad="24"/>
-<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="CE0/GP8" pad="24"/>
+<connect gate="G$1" pin="CE1/GP7" pad="26"/>
+<connect gate="G$1" pin="CIPO/GP9" pad="21"/>
+<connect gate="G$1" pin="COPI/GP10" pad="19"/>
 <connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39"/>
-<connect gate="G$1" pin="GP12" pad="32"/>
-<connect gate="G$1" pin="GP13" pad="33"/>
 <connect gate="G$1" pin="GP16" pad="36"/>
 <connect gate="G$1" pin="GP17" pad="11"/>
-<connect gate="G$1" pin="GP18#" pad="12"/>
-<connect gate="G$1" pin="GP19" pad="35"/>
-<connect gate="G$1" pin="GP20" pad="38"/>
-<connect gate="G$1" pin="GP21" pad="40"/>
 <connect gate="G$1" pin="GP22" pad="15"/>
 <connect gate="G$1" pin="GP23" pad="16"/>
 <connect gate="G$1" pin="GP24" pad="18"/>
@@ -27568,15 +27562,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GP4" pad="7"/>
 <connect gate="G$1" pin="GP5" pad="29"/>
 <connect gate="G$1" pin="GP6" pad="31"/>
-<connect gate="G$1" pin="ID_SC" pad="28"/>
-<connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="MISO" pad="21"/>
-<connect gate="G$1" pin="MOSI" pad="19"/>
-<connect gate="G$1" pin="RXI" pad="10"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SCLK" pad="23"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="TXO" pad="8"/>
+<connect gate="G$1" pin="ID_SC/GP1" pad="28"/>
+<connect gate="G$1" pin="ID_SD/GP0" pad="27"/>
+<connect gate="G$1" pin="PCM_CLK/GP18" pad="12"/>
+<connect gate="G$1" pin="PCM_DIN/GP20" pad="38"/>
+<connect gate="G$1" pin="PCM_DOUT/GP21" pad="40"/>
+<connect gate="G$1" pin="PCM_FS/GP19" pad="35"/>
+<connect gate="G$1" pin="PWM0/GP12" pad="32"/>
+<connect gate="G$1" pin="PWM1/GP13" pad="33"/>
+<connect gate="G$1" pin="RXI/GP15" pad="10"/>
+<connect gate="G$1" pin="SCL/GP3\" pad="5"/>
+<connect gate="G$1" pin="SCLK/GP11" pad="23"/>
+<connect gate="G$1" pin="SDA/GP2" pad="3"/>
+<connect gate="G$1" pin="TXO/GP14" pad="8"/>
 </connects>
 <technologies>
 <technology name="">
@@ -27588,17 +27586,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="3.3V" pad="1 17"/>
 <connect gate="G$1" pin="5V" pad="2 4"/>
-<connect gate="G$1" pin="CE0" pad="24"/>
-<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="CE0/GP8" pad="24"/>
+<connect gate="G$1" pin="CE1/GP7" pad="26"/>
+<connect gate="G$1" pin="CIPO/GP9" pad="21"/>
+<connect gate="G$1" pin="COPI/GP10" pad="19"/>
 <connect gate="G$1" pin="GND" pad="6 9 14 20 25 30 34 39"/>
-<connect gate="G$1" pin="GP12" pad="32"/>
-<connect gate="G$1" pin="GP13" pad="33"/>
 <connect gate="G$1" pin="GP16" pad="36"/>
 <connect gate="G$1" pin="GP17" pad="11"/>
-<connect gate="G$1" pin="GP18#" pad="12"/>
-<connect gate="G$1" pin="GP19" pad="35"/>
-<connect gate="G$1" pin="GP20" pad="38"/>
-<connect gate="G$1" pin="GP21" pad="40"/>
 <connect gate="G$1" pin="GP22" pad="15"/>
 <connect gate="G$1" pin="GP23" pad="16"/>
 <connect gate="G$1" pin="GP24" pad="18"/>
@@ -27608,15 +27602,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="GP4" pad="7"/>
 <connect gate="G$1" pin="GP5" pad="29"/>
 <connect gate="G$1" pin="GP6" pad="31"/>
-<connect gate="G$1" pin="ID_SC" pad="28"/>
-<connect gate="G$1" pin="ID_SD" pad="27"/>
-<connect gate="G$1" pin="MISO" pad="21"/>
-<connect gate="G$1" pin="MOSI" pad="19"/>
-<connect gate="G$1" pin="RXI" pad="10"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SCLK" pad="23"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="TXO" pad="8"/>
+<connect gate="G$1" pin="ID_SC/GP1" pad="28"/>
+<connect gate="G$1" pin="ID_SD/GP0" pad="27"/>
+<connect gate="G$1" pin="PCM_CLK/GP18" pad="12"/>
+<connect gate="G$1" pin="PCM_DIN/GP20" pad="38"/>
+<connect gate="G$1" pin="PCM_DOUT/GP21" pad="40"/>
+<connect gate="G$1" pin="PCM_FS/GP19" pad="35"/>
+<connect gate="G$1" pin="PWM0/GP12" pad="32"/>
+<connect gate="G$1" pin="PWM1/GP13" pad="33"/>
+<connect gate="G$1" pin="RXI/GP15" pad="10"/>
+<connect gate="G$1" pin="SCL/GP3\" pad="5"/>
+<connect gate="G$1" pin="SCLK/GP11" pad="23"/>
+<connect gate="G$1" pin="SDA/GP2" pad="3"/>
+<connect gate="G$1" pin="TXO/GP14" pad="8"/>
 </connects>
 <technologies>
 <technology name="">
@@ -27823,20 +27821,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FD4" gate="G$1" x="228.6" y="27.94" smashed="yes"/>
 <instance part="J1" gate="G$1" x="50.8" y="99.06" smashed="yes" rot="MR0">
 <attribute name="NAME" x="63.5" y="127.762" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="63.5" y="63.5" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="63.5" y="66.04" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="J2" gate="G$1" x="93.98" y="99.06" smashed="yes">
-<attribute name="NAME" x="81.28" y="127.762" size="1.778" layer="95"/>
-<attribute name="VALUE" x="81.28" y="63.5" size="1.778" layer="96"/>
+<instance part="J2" gate="G$1" x="91.44" y="99.06" smashed="yes">
+<attribute name="NAME" x="78.74" y="127.762" size="1.778" layer="95"/>
+<attribute name="VALUE" x="78.74" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="71.12" y="63.5" smashed="yes">
-<attribute name="VALUE" x="71.12" y="63.246" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="71.12" y="66.04" smashed="yes">
+<attribute name="VALUE" x="71.12" y="65.786" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="68.58" y="127" smashed="yes">
-<attribute name="VALUE" x="68.58" y="129.794" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="73.66" y="127" smashed="yes">
+<attribute name="VALUE" x="73.66" y="129.794" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="76.2" y="127" smashed="yes">
-<attribute name="VALUE" x="76.2" y="129.794" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="68.834" y="127" smashed="yes">
+<attribute name="VALUE" x="68.834" y="129.794" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J3" gate="G$1" x="193.04" y="124.46" smashed="yes">
 <attribute name="VALUE" x="187.96" y="119.126" size="1.778" layer="96" font="vector" align="top-left"/>
@@ -27859,79 +27857,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <busses>
 </busses>
 <nets>
-<net name="GP5" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="GP5"/>
-<pinref part="J2" gate="G$1" pin="GP5"/>
-<wire x1="66.04" y1="111.76" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GP6" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GP6"/>
-<pinref part="J1" gate="G$1" pin="GP6"/>
-<wire x1="78.74" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GP12" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="GP12"/>
-<pinref part="J2" gate="G$1" pin="GP12"/>
-<wire x1="66.04" y1="106.68" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GP13" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GP13"/>
-<pinref part="J1" gate="G$1" pin="GP13"/>
-<wire x1="78.74" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GP16" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="GP16"/>
-<pinref part="J2" gate="G$1" pin="GP16"/>
-<wire x1="66.04" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GP19" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GP19"/>
-<pinref part="J1" gate="G$1" pin="GP19"/>
-<wire x1="78.74" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GP20" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="GP20"/>
-<pinref part="J2" gate="G$1" pin="GP20"/>
-<wire x1="66.04" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GP21" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GP21"/>
-<pinref part="J1" gate="G$1" pin="GP21"/>
-<wire x1="78.74" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GP26" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="GP26"/>
-<pinref part="J2" gate="G$1" pin="GP26"/>
-<wire x1="66.04" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="3.3V" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="3.3V"/>
-<pinref part="J2" gate="G$1" pin="3.3V"/>
-<wire x1="66.04" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="121.92" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="127" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
-<junction x="76.2" y="121.92"/>
-<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-</segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
 <pinref part="J3" gate="G$1" pin="2"/>
@@ -27942,29 +27868,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="200.66" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="106.68" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3.3V"/>
+<pinref part="J2" gate="G$1" pin="3.3V"/>
+<wire x1="66.04" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
+<wire x1="68.834" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="121.92" x2="68.834" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="68.834" y1="121.92" x2="68.834" y2="127" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="5V"/>
 <pinref part="J1" gate="G$1" pin="5V"/>
-<wire x1="78.74" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="124.46" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="124.46" x2="68.58" y2="127" width="0.1524" layer="91"/>
-<junction x="68.58" y="124.46"/>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
+<wire x1="73.66" y1="124.46" x2="73.66" y2="127" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="124.46" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="5V"/>
+<wire x1="73.66" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
+<junction x="73.66" y="124.46"/>
 </segment>
 </net>
 <net name="2/SDA" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="SDA"/>
-<wire x1="109.22" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
-<label x="111.76" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="124.46" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
-<label x="33.02" y="124.46" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="SDA"/>
-</segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="200.66" y1="127" x2="208.28" y2="127" width="0.1524" layer="91"/>
@@ -27975,18 +27900,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="200.66" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
 <label x="208.28" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+<segment>
+<wire x1="106.68" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
+<label x="109.22" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="SDA/GP2"/>
+</segment>
+<segment>
+<wire x1="35.56" y1="119.38" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
+<label x="33.02" y="119.38" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="SDA/GP2"/>
+</segment>
 </net>
 <net name="3/SCL" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="SCL"/>
-<wire x1="109.22" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
-<label x="111.76" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
-<label x="33.02" y="121.92" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="SCL"/>
-</segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="200.66" y1="129.54" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
@@ -27997,221 +27922,126 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="200.66" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
 <label x="208.28" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
-</net>
-<net name="14/TXO" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="TXO"/>
-<wire x1="109.22" y1="116.84" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
-<label x="111.76" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="106.68" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
+<label x="109.22" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="SCL/GP3\"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="116.84" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
 <label x="33.02" y="116.84" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="TXO"/>
+<pinref part="J1" gate="G$1" pin="SCL/GP3\"/>
 </segment>
 </net>
-<net name="15/RXI" class="0">
+<net name="14/TXO" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="RXI"/>
-<wire x1="109.22" y1="114.3" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
-<label x="111.76" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="114.3" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
-<label x="33.02" y="114.3" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="RXI"/>
-</segment>
-</net>
-<net name="11/SCLK" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="SCLK"/>
-<wire x1="111.76" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
-<label x="111.76" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="33.02" y1="109.22" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
-<label x="33.02" y="109.22" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="SCLK"/>
-</segment>
-</net>
-<net name="9/CIPO" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="MISO"/>
-<wire x1="109.22" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
-<label x="111.76" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
-<label x="33.02" y="106.68" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="MISO"/>
-</segment>
-</net>
-<net name="10/COPI" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="MOSI"/>
-<wire x1="109.22" y1="104.14" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
-<label x="111.76" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
-<label x="33.02" y="104.14" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="MOSI"/>
-</segment>
-</net>
-<net name="8/CE0" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="CE0"/>
-<wire x1="109.22" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
-<label x="111.76" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="101.6" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
-<label x="33.02" y="101.6" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="CE0"/>
-</segment>
-</net>
-<net name="7/CE1" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="CE1"/>
-<wire x1="109.22" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
-<label x="111.76" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<label x="33.02" y="99.06" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="CE1"/>
-</segment>
-</net>
-<net name="GP4" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GP4"/>
-<wire x1="109.22" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
-<label x="111.76" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
-<label x="33.02" y="93.98" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="GP4"/>
-</segment>
-</net>
-<net name="GP17" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GP17"/>
-<wire x1="109.22" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
-<label x="111.76" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
-<label x="33.02" y="91.44" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="GP17"/>
-</segment>
-</net>
-<net name="GP18" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GP18#"/>
-<wire x1="109.22" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
-<label x="111.76" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="106.68" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
+<label x="109.22" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="TXO/GP14"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="88.9" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
 <label x="33.02" y="88.9" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="GP18#"/>
+<pinref part="J1" gate="G$1" pin="TXO/GP14"/>
 </segment>
 </net>
-<net name="GP22" class="0">
+<net name="15/RXI" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="GP22"/>
-<wire x1="109.22" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
-<label x="111.76" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="106.68" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
+<label x="109.22" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="RXI/GP15"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
 <label x="33.02" y="86.36" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="GP22"/>
+<pinref part="J1" gate="G$1" pin="RXI/GP15"/>
 </segment>
 </net>
-<net name="GP23" class="0">
+<net name="11/SCLK" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="GP23"/>
-<wire x1="109.22" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<label x="111.76" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="109.22" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
+<label x="109.22" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="SCLK/GP11"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="83.82" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
-<label x="33.02" y="83.82" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="GP23"/>
-</segment>
-</net>
-<net name="GP24" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GP24"/>
-<wire x1="109.22" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="111.76" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
-<label x="33.02" y="81.28" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="GP24"/>
+<wire x1="33.02" y1="101.6" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
+<label x="33.02" y="101.6" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="SCLK/GP11"/>
 </segment>
 </net>
-<net name="GP25" class="0">
+<net name="9/CIPO" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="GP25"/>
-<wire x1="109.22" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
-<label x="111.76" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="106.68" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<label x="109.22" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="CIPO/GP9"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
-<label x="33.02" y="78.74" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="GP25"/>
+<wire x1="35.56" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
+<label x="33.02" y="106.68" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="CIPO/GP9"/>
 </segment>
 </net>
-<net name="GP27" class="0">
+<net name="10/COPI" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="GP27"/>
-<wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="111.76" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="106.68" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
+<label x="109.22" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="COPI/GP10"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<label x="33.02" y="76.2" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="GP27"/>
+<wire x1="35.56" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
+<label x="33.02" y="104.14" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="COPI/GP10"/>
+</segment>
+</net>
+<net name="8/CE0" class="0">
+<segment>
+<wire x1="106.68" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<label x="109.22" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="CE0/GP8"/>
+</segment>
+<segment>
+<wire x1="35.56" y1="109.22" x2="33.02" y2="109.22" width="0.1524" layer="91"/>
+<label x="33.02" y="109.22" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="CE0/GP8"/>
+</segment>
+</net>
+<net name="7/CE1" class="0">
+<segment>
+<wire x1="106.68" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<label x="109.22" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="CE1/GP7"/>
+</segment>
+<segment>
+<wire x1="35.56" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
+<label x="33.02" y="111.76" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="CE1/GP7"/>
 </segment>
 </net>
 <net name="0/ID_SD" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="ID_SD"/>
-<wire x1="109.22" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
-<label x="111.76" y="71.12" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="106.68" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
+<label x="109.22" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="ID_SD/GP0"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="71.12" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
-<label x="33.02" y="71.12" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="ID_SD"/>
+<wire x1="35.56" y1="124.46" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
+<label x="33.02" y="124.46" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="ID_SD/GP0"/>
 </segment>
 </net>
 <net name="1/ID_SC" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="ID_SC"/>
-<wire x1="109.22" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
-<label x="111.76" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="106.68" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
+<label x="109.22" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="ID_SC/GP1"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
-<label x="33.02" y="68.58" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="ID_SC"/>
+<wire x1="35.56" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
+<label x="33.02" y="121.92" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="ID_SC/GP1"/>
 </segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="78.74" y1="68.58" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="71.12" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="66.04" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
-<junction x="71.12" y="68.58"/>
-</segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
@@ -28221,6 +28051,164 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="104.14" x2="205.74" y2="104.14" width="0.1524" layer="91"/>
 <junction x="205.74" y="104.14"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<wire x1="66.04" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="71.12" y1="68.58" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="GND"/>
+<wire x1="71.12" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
+<junction x="71.12" y="71.12"/>
+</segment>
+</net>
+<net name="GP4" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="GP4"/>
+<pinref part="J2" gate="G$1" pin="GP4"/>
+<wire x1="66.04" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GP5" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="GP5"/>
+<pinref part="J1" gate="G$1" pin="GP5"/>
+<wire x1="76.2" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GP6" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="GP6"/>
+<wire x1="66.04" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="GP6"/>
+</segment>
+</net>
+<net name="GP16" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="GP16"/>
+<pinref part="J1" gate="G$1" pin="GP16"/>
+<wire x1="76.2" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GP17" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="GP17"/>
+<pinref part="J2" gate="G$1" pin="GP17"/>
+<wire x1="66.04" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GP22" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="GP22"/>
+<pinref part="J1" gate="G$1" pin="GP22"/>
+<wire x1="76.2" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GP23" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="GP23"/>
+<pinref part="J2" gate="G$1" pin="GP23"/>
+<wire x1="66.04" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GP24" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="GP24"/>
+<pinref part="J1" gate="G$1" pin="GP24"/>
+<wire x1="76.2" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GP25" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="GP25"/>
+<pinref part="J2" gate="G$1" pin="GP25"/>
+<wire x1="66.04" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GP26" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="GP26"/>
+<pinref part="J1" gate="G$1" pin="GP26"/>
+<wire x1="76.2" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GP27" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="GP27"/>
+<pinref part="J2" gate="G$1" pin="GP27"/>
+<wire x1="66.04" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="12/PCM0" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="PWM0/GP12"/>
+<wire x1="33.02" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
+<label x="33.02" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="96.52" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
+<label x="109.22" y="96.52" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="PWM0/GP12"/>
+</segment>
+</net>
+<net name="13/PCM1" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="PWM1/GP13"/>
+<wire x1="33.02" y1="93.98" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
+<label x="33.02" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
+<label x="109.22" y="93.98" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="PWM1/GP13"/>
+</segment>
+</net>
+<net name="19/PCM_FS" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="PCM_FS/GP19"/>
+<wire x1="33.02" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<label x="33.02" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="78.74" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
+<label x="109.22" y="78.74" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="PCM_FS/GP19"/>
+</segment>
+</net>
+<net name="20/PCM_DIN" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="PCM_DIN/GP20"/>
+<wire x1="33.02" y1="76.2" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
+<label x="33.02" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<label x="109.22" y="76.2" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="PCM_DIN/GP20"/>
+</segment>
+</net>
+<net name="21/PCM_DOUT" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="PCM_DOUT/GP21"/>
+<wire x1="33.02" y1="73.66" x2="35.56" y2="73.66" width="0.1524" layer="91"/>
+<label x="33.02" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<label x="109.22" y="73.66" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="PCM_DOUT/GP21"/>
+</segment>
+</net>
+<net name="18/PCM_CLK" class="0">
+<segment>
+<wire x1="35.56" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<label x="33.02" y="81.28" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="PCM_CLK/GP18"/>
+</segment>
+<segment>
+<wire x1="106.68" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
+<label x="109.22" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="PCM_CLK/GP18"/>
 </segment>
 </net>
 </nets>
