@@ -28139,7 +28139,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="66.04" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="12/PCM0" class="0">
+<net name="12/PWM0" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="PWM0/GP12"/>
 <wire x1="33.02" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
@@ -28151,7 +28151,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="PWM0/GP12"/>
 </segment>
 </net>
-<net name="13/PCM1" class="0">
+<net name="13/PWM1" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="PWM1/GP13"/>
 <wire x1="33.02" y1="93.98" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
