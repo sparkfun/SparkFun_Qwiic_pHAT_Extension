@@ -10581,12 +10581,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="69.0093" y="99.539878125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="69.0093" y="96.237878125" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="6.858" y="176.20488125" smashed="yes"/>
-<element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="6.858" y="176.20488125" smashed="yes" rot="MR0"/>
-<element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="123.586240625" y="176.20488125" smashed="yes"/>
-<element name="E$4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="123.586240625" y="176.20488125" smashed="yes" rot="MR0"/>
-<element name="E$5" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="6.858" y="-10.4775" smashed="yes"/>
-<element name="E$6" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="6.858" y="-10.4775" smashed="yes" rot="MR0"/>
+<element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="173.02988125" smashed="yes"/>
+<element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="173.02988125" smashed="yes" rot="MR0"/>
+<element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="133.131559375" y="173.02988125" smashed="yes"/>
+<element name="E$4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="133.131559375" y="173.02988125" smashed="yes" rot="MR0"/>
+<element name="E$5" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="-2.62381875" y="15.24" smashed="yes"/>
+<element name="E$6" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="-2.62381875" y="15.24" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="3.3V">
