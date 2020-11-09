@@ -20,7 +20,7 @@ Documentation
 
 Product Versions
 ----------------
-* [DEV-17512](https://www.sparkfun.com/products/17512)- Basic part and short description here
+* [DEV-17512](https://www.sparkfun.com/products/17512)
 
 Version History
 ---------------
